@@ -1,0 +1,102 @@
+body{
+    font-family: "montserrat", sans-serif;
+}
+h1{
+    color: #e20000;
+    font-size: 36px;
+}
+p{
+    color: #6a6a6a;
+    font-size: 16px;
+}
+input,textarea{
+    border-radius: 15px !important; margin-bottom: 15px;
+}
+
+#contacto{
+    background-image: url("../imagenes/fondo-contacto.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.btn{
+    background-color: white;
+    color: #370a6d;
+    border-radius: 20px;
+    
+}
+.btn:hover{
+    background-color: #370a6d;
+    color: white;
+}
+nav .nav-link{
+    color: #282828; 
+}
+nav .active{
+    border: #e20000 solid 1px;
+    border-radius: 20px;
+}
+footer, footer a{
+    color: white;
+    font-weight: 100;
+}
+footer .fa-github{
+    font-size: 30px;
+    color:black;
+}
+footer .fa-linkedin-in{
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    border: 0px;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    padding: 9px 0 0 0;
+    border-radius: 88px;
+}
+.fa-whatsapp{
+    position: fixed;
+    bottom: 0px;
+    right: 20px;
+    color: white;
+    background-color: #370a6d;
+    padding: 20px 20px 35px 20px;
+    font-size: 30px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+@media(max-width: 750px) {
+    #contacto{
+        background-image: url("../imagenes/fondo-proyectos.png");
+    }
+    footer, footer a{
+        color: black;
+        font-weight: 100;
+        text-align: center;
+    }
+    .btn{
+        background-color: #370a6d;
+        color: white;
+        border-radius: 20px;
+            
+     }
+     footer .fa-github{
+        font-size: 30px;
+        color: #e20000;
+    }
+    footer .fa-linkedin-in{
+        color: white;
+        background-color: #e20000;
+        font-size: 20px;
+        border: 0px;
+        height: 30px;
+        width: 30px;
+        text-align: center;
+        padding: 9px 0 0 0;
+        border-radius: 88px;
+    }
+    .fa-bars{
+        color: #e20000;
+        font-size: 25px;
+    }
+}
