@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/fontawesome/css/all.min.css">
-    <link rel="stylesheet" href="css/fontawesome/css/fontawesome.min.css">
-    <link rel="stylesheet" type="text/css" href="css/estilos.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&display=swap"
-        rel="stylesheet">
+<meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/fontawesome/css/all.min.css">
+  <link rel="stylesheet" href="css/fontawesome/css/fontawesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/estilos.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&display=swap"
+      rel="stylesheet">
 
     
     
@@ -96,6 +96,13 @@
                   </div>
                   <div class="col-sm-2 col-6 text-center">
                       <div class="px-4 py-5 card mx-0 mb-4 mb-sm-0">
+                          <h3>CSS</h3>
+                          <img class="img-fluid d-block mx-auto" width="60"
+                              src="imagenes/css.png">
+                      </div>
+                  </div>
+                  <div class="col-sm-2 col-6 text-center">
+                      <div class="px-4 py-5 card mx-0 mb-4 mb-sm-0">
                           <h3>React.js</h3>
                           <img class="img-fluid d-block mx-auto" width="60"
                               src="imagenes/react.png">
@@ -108,13 +115,7 @@
                               src="imagenes/jquery.jpg">
                       </div>
                   </div>
-                  <div class="col-sm-2 col-6 text-center">
-                      <div class="px-4 py-5 card mx-0 mb-4 mb-sm-0">
-                          <h3>Bootstrap</h3>
-                          <img class="img-fluid d-block mx-auto" width="60"
-                              src="imagenes/bootstrap.png">
-                      </div>
-                  </div>
+                  
               </div>
               <div class="row mt-sm-4 mt-0">
                   <div class="col-sm-2 col-6">
@@ -129,13 +130,6 @@
                           <h3>MySQL</h3>
                           <img class="img-fluid d-block mx-auto" width="60"
                               src="imagenes/mariadb.png">
-                      </div>
-                  </div>
-                  <div class="col-sm-2 col-6 text-center">
-                      <div class="px-4 py-5 card mx-0 mb-4 mb-sm-0">
-                          <h3>CSS</h3>
-                          <img class="img-fluid d-block mx-auto" width="60"
-                              src="imagenes/css.png">
                       </div>
                   </div>
                   <div class="col-sm-2 col-6 text-center">
@@ -157,29 +151,36 @@
                         <h3>Mercadopago</h3>
                         <img class="img-fluid d-block mx-auto" width="63"
                             src="imagenes/mp.png">
-                    </div>
+                    </div> 
                 </div>
+                <div class="col-sm-2 col-6 text-center">
+                      <div class="px-4 py-5 card mx-0 mb-4 mb-sm-0">
+                          <h3>Bootstrap</h3>
+                          <img class="img-fluid d-block mx-auto" width="60"
+                              src="imagenes/bootstrap.png">
+                      </div>
+                  </div>
               </div>
 
           </div>
       </section>
       <section class="container ">
         <div class="row">
-            <div class="col-12 pt-5 pb-4">
+            <div class="col-12 pt-5 pb-5">
                 <h2> Experiencia laboral</h2>
             </div>
         </div>
         <div class="row rounded experiencia">
 
-            <div class="col-12  m-3">
-                <div class="row">
+            <div class="col-12  m-3 ">
+                <div class="row ">
                     <div class="col-2 p-5 my-auto d-none d-sm-block ">
-                        <img src="imagenes/logo tausem.png" class="img-fluid baw" title="">
+                        <img src="imagenes/logo tausem.png" class="img-fluid baw" title="tausem">
                     </div>
-                    <div class="col-12- col-sm-10 p-3">
+                    <div class="col-12- col-sm-10 p-3 ">
                         <h3>Empleado de mantenimiento</h3>
                         <h4>2016 - 2018</h4>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic fugiat vitae aspernatur esse! Eaque, iste illum?</p>
+                        <p class="sobremi">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic fugiat vitae aspernatur esse! Eaque, iste illum?</p>
                     </div>
                 </div>
             </div>
@@ -194,11 +195,12 @@
                   </div>
               </div>
           </div>
+        </div>
           </section>
       
       <section id="formacion" class="container">
           <div class="row">
-              <div class="col-12 pt-5 pb-4">
+              <div class="col-12 pt-5 pb-5">
                   <h2> Formación acádémica</h2>
               </div>
           </div>

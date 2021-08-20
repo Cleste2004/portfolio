@@ -14,7 +14,7 @@ body{
     font-family: "montserrat", sans-serif;
 }
 h1{
-    color: red;
+    color: #563680;
     font-size: 36px;
 }
 .Titinicio{
@@ -168,6 +168,9 @@ footer .fa-linkedin-in{
 .container .circulo:hover {-webkit-transform:scale(.75);transform:scale(.75);
     transition-delay: 0.25s;
     transition:all .5s ease-in-out;
+}
+.sobremi{
+    color: black;
 }
 @media(max-width: 750px) {
     #contacto{
