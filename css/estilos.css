@@ -24,13 +24,18 @@ h1{
     background-image: linear-gradient(275deg, #6b478c 0, #563680 50%, #3f2674 100%);
     color: white;
     font-size: 10px;
-} h2{
+}
+ h2{
     color: white;
     font-size: 20px;
 }
 h3{
-    color: #573680;
-    font-size: 17px;
+    color: black;
+    font-size: 18px;
+}
+.sobreh2{
+    color: black;
+    text-decoration: underline;
 }
 #proyectos img{
     height: 210px;
@@ -57,7 +62,7 @@ input,textarea{
     border-radius: 15px !important; margin-bottom: 15px;
 }
 
-#contacto {
+#contacto,#index{
     background-image: url("../imagenes/fondo123.png ");
     background-size: 100%;
     background-repeat: no-repeat;
@@ -171,9 +176,16 @@ footer .fa-linkedin-in{
 }
 .sobremi{
     color: black;
+}.experiencia{
+    background-color: white;
+    border-radius: 20px;
 }
 @media(max-width: 750px) {
-    #contacto{
+    
+    #sobremi{
+       margin-right: 0px;
+    }
+    #contacto,#index{
         background-image: url("../imagenes/fondo123.png");
         background-repeat:repeat
     }
@@ -220,8 +232,26 @@ footer .fa-linkedin-in{
         display: block;
         margin: auto    ;
     }
+    #sobremi, #contacto, #proyectos, #index{
+        display: block;
+        margin: 0px;
+    }
+    #contacto{
+        display: block;
+        margin: auto;
+    }
+        
+    .imgc{
+        display: none;
+    }
+    .experiencia{
+        border-radius: 0px !important;
+        background-size: 100%;
+        
+    }
+    .magnate{
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
 }
-.experiencia{
-    background-color: white;
-    border-radius: 15px;
-}
+

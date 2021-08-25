@@ -18,7 +18,7 @@
 <body id="sobremi">
   <header>
     <nav class="navbar navbar-expand-md">
-        <div class="container-fluid">
+        <div class="container">
           <button class="navbar-toggler p-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fas fa-bars"></i>
           </button>

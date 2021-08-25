@@ -25,26 +25,26 @@
               <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav me-auto mb-2 mb-md-0">
                   <li class="nav-item">
-                    <a class="nav-link active pe-4" href="index.php">Inicio</a>
+                    <a class="nav-link active pe-4" href="index.php">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active pe-4" href="sobre-mi.php">Sobre mi</a>
+                    <a class="nav-link active pe-4" href="sobre-mi.php">About me</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active pe-4" href="proyectos.php">Proyectos</a>
+                    <a class="nav-link active pe-4" href="proyectos.php">Proyects</a>
                    
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" href="contacto.php">Contacto</a>
+                    <a class="nav-link active" href="contacto.php">Contact</a>
                   </li>
                 </ul>
                 <form class="d-flex">
                     <ul class="navbar-nav me-auto mb-2 mb-md-0">
                         <li class="nav-item">
-                          <a class="nav-link active" href="">ES</a>
+                          <a class="nav-link active" href="index.php">ES</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link active" href="">EN</a>
+                          <a class="nav-link active" href="indexEN.php">EN</a>
                       </ul>
                 </form>
               </div>
@@ -56,7 +56,7 @@
       <div class="row">
         <div class="col-12 col-sm-6 my-4 mt-sm-5 text-center offset-sm-3 mb-3">
             <div>
-                <p class="Titinicio">Bienvenido a mi sitio web</p>
+                <p class="Titinicio">Welcome to my website</p>
             </div>
         </div>
     </div>
@@ -68,7 +68,7 @@
       
       <div class="row  btn4">
           <div class="col-12 text-center">
-              <a href="proyectos.php" class="btn3">Conoce mis proyectos</a>
+              <a href="proyectos.php" class="btn3">Know my projects</a>
           </div>
       </div>
   </main>
@@ -80,7 +80,7 @@
             <a href="https://ar.linkedin.com/" target="_blank" title="Linkedin"><i class="fab fa-linkedin-in"></i></a>
         </div>
         <div class="col-12 col-sm-3">
-          <A href="http://depcsuite.com">Esponsor DePC suite</A>
+          <A href="http://depcsuite.com">sponsor DePC suite</A>
 
        </div>
        <div class="col-12 col-sm-3">

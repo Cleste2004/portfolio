@@ -25,26 +25,26 @@
               <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav me-auto mb-2 mb-md-0">
                   <li class="nav-item">
-                    <a class="nav-link active pe-4" href="index.php">Inicio</a>
+                    <a class="nav-link active pe-4" href="index.php">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active pe-4" href="sobre-mi.php">Sobre mi</a>
+                    <a class="nav-link active pe-4" href="sobre-mi.php">About me</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active pe-4" href="proyectos.php">Proyectos</a>
+                    <a class="nav-link active pe-4" href="proyectos.php">Proyects</a>
                    
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" href="contacto.php">Contacto</a>
+                    <a class="nav-link active" href="contacto.php">Contact</a>
                   </li>
                 </ul>
                 <form class="d-flex">
                     <ul class="navbar-nav me-auto mb-2 mb-md-0">
                         <li class="nav-item">
-                          <a class="nav-link active" href="">ES</a>
+                          <a class="nav-link active" href="proyectos.php">ES</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link active" href="">EN</a>
+                          <a class="nav-link active" href="proyectosEN.php">EN</a>
                       </ul>
                 </form>
               </div>
@@ -55,8 +55,8 @@
     <main class="container">
         <div class="row">
             <div class="col-12 py-5">
-                <h1>Proyectos</h1>
-                <p>Los siguientes son algunos de los trabajos que he realizado</p>
+                <h1>Proyects</h1>
+                <p>The following are some of the work I have done</p>
               </div>
           </div>
           <div class="row"  >
@@ -65,19 +65,19 @@
                 <img src="imagenes/abmclientes.png" alt="abmclientes" class="img-fluid">
 
                 <div class="col-12 py-2 degrade ">
-                  <h2>ABM clientes</h2>
+                  <h2>ABM clients</h2>
                 </div>
                 <div class="col-12">
-                  <p class="py-3">Alta, baja y modificación de un registro de clientes. Realizado en HTML, CSS, PHP, Bootstrap y Json.</p>
+                  <p class="py-3">Registration, cancellation and modification of a customer record. Made in HTML, CSS, PHP, Bootstrap and Json.</p>
                   
 
                 </div>
                 <div class="col-6 my-5">
-                  <a href="" class="btn1">Ver online</a>
+                  <a href="" class="btn1">Watch online</a>
 
                 </div>
                 <div class="col-6 my-5">
-                  <a href="" class="btn2">Codigo fuente</a>
+                  <a href="" class="btn2">Source code</a>
 
                 </div>
               </div>
@@ -89,18 +89,18 @@
                 <img src="imagenes/abmventas.png" alt="abmventas" class="img-fluid">
 
                 <div class="col-12 py-2 degrade">
-                  <h2>Sistemas de gestion de ventas</h2>
+                  <h2>Sales management systems</h2>
                 </div>
                 <div class="col-12">
-                  <p class="pt-3">Sistema de gestión de clientes, productos y ventas. Realizado en HTML, CSS, PHP, MVC, Bootstrap, Js, Ajax, jQuery y MySQL de base de datos.</p>
+                  <p class="pt-3">Customer, product and sales management system. Made in HTML, CSS, PHP, MVC, Bootstrap, Js, Ajax, jQuery and MySQL database.</p>
 
                 </div>
                 <div class="col-6 my-5">
-                  <a href="" class="btn1">Ver online</a>
+                  <a href="" class="btn1">Watch online</a>
 
                 </div>
                 <div class="col-6 my-5">
-                  <a href="" class="btn2">Codigo fuente</a>
+                  <a href="" class="btn2">Source code</a>
 
                 </div>
               </div>
@@ -112,20 +112,19 @@
                 <img src="imagenes/proyecto-integrador.png" alt="Proyecto" class="img-fluid" >
 
                 <div class="col-12 py-2 degrade ">
-                  <h2>Proyecto integrador</h2>
+                  <h2>Integrative project</h2>
                 </div>
                 <div class="col-12">
-                  <p class="pt-3">Proyecto Full Stack desarrollado en PHP, Laravel, Javascript, jQuery, AJAX, HTML, CSS, Mercadopago con panel administrador, gestor de usuarios, módulo de permisos y funcionalidades a fines.
-
+                  <p class="pt-3">Full Stack project developed in PHP, Laravel, Javascript, jQuery, AJAX, HTML, CSS, Mercadopago with administrator panel, user manager, permission module and functionalities at the end.
                   </p>
 
                 </div>
                 <div class="col-6 my-5">
-                  <a href="" class="btn1">Ver online</a>
+                  <a href="" class="btn1">Watch online</a>
 
                 </div>
                 <div class="col-6 my-5">
-                  <a href="" class="btn2">Codigo fuente</a>
+                  <a href="" class="btn2">Source code</a>
 
                 </div>
               </div>  
@@ -142,7 +141,7 @@
                     <a href="https://ar.linkedin.com/" target="_blank" title="Linkedin"><i class="fab fa-linkedin-in"></i></a>
                 </div>
                 <div class="col-12 col-sm-3">
-                  <A href="http://depcsuite.com">Esponsor DePC suite</A>
+                  <A href="http://depcsuite.com">Sponsor DePC suite</A>
       
                </div>
                <div class="col-12 col-sm-3">

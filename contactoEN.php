@@ -25,17 +25,17 @@
               <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav me-auto mb-2 mb-md-0">
                   <li class="nav-item">
-                    <a class="nav-link active pe-4" href="index.php">Inicio</a>
+                    <a class="nav-link active pe-4" href="indexEN.php">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active pe-4" href="sobre-mi.php">Sobre mi</a>
+                    <a class="nav-link active pe-4" href="sobre-miEN.php">About me</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active pe-4" href="proyectos.php">Proyectos</a>
+                    <a class="nav-link active pe-4" href="proyectosEN.php">Proyects</a>
                    
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" href="contacto.php">Contacto</a>
+                    <a class="nav-link active" href="contactoEN.php">Contact</a>
                   </li>
                 </ul>
                 <form class="d-flex">
@@ -55,29 +55,29 @@
     <main class="container">
         <div class="row">
             <div class="col-12 py-5" >
-                <h1>Contacto</h1>
+                <h1>Contact</h1>
             </div>
             <div class="row">
                 <div class="col-12 col-sm-6 QR">
-                    <p>Te invito a que te contactes enviándome un mensaje o bien por whatsapp.</p>
+                    <p>I invite you to contact me by sending me a message or by whatsapp.</p>
                     <img src="imagenes/QR whatsapp.png">
 
                 </div>
                 <div class="col-12 col-sm-6">
                     <form action="" method="post">
                         <div>
-                            <input type="text" name="txtNombre" id="txtNombre" class="form-control mb-3" placeholder="Nombre">
+                            <input type="text" name="txtNombre" id="txtNombre" class="form-control mb-3" placeholder="Name">
                         </div>
                         <div>
                             <input type="email" name="txtCorreo" id="txtCorreo" class="form-control mb-3" placeholder="E-mail" >
                         <div>
-                            <input type="tel" name="txtTelefono" id="txtTele" class="form-control mb-3" placeholder="Telefono" >
+                            <input type="tel" name="txtTelefono" id="txtTele" class="form-control mb-3" placeholder="telephone" >
                         </div>
                         <div>
-                            <textarea name="" id="" cols="30" rows="10" class="form-control mb-3 " placeholder="Escribi aqui tu mensaje"></textarea>
+                            <textarea name="" id="" cols="30" rows="10" class="form-control mb-3 " placeholder="Write your message here"></textarea>
                         </div>
                         <div>
-                            <button type="submit" id="btnEnviar" name="btnEnviar" class="btn mb-3" >ENVIAR</button>
+                            <button type="submit" id="btnEnviar" name="btnEnviar" class="btn mb-3" >SEND</button>
                         </div>
                         
                     </form>
@@ -97,7 +97,7 @@
               <a href="https://ar.linkedin.com/" target="_blank" title="Linkedin"><i class="fab fa-linkedin-in"></i></a>
           </div>
           <div class="col-12 col-sm-3">
-            <A href="http://depcsuite.com">Esponsor DePC suite</A>
+            <A href="http://depcsuite.com">Sponsor DePC suite</A>
 
          </div>
          <div class="col-12 col-sm-3">
