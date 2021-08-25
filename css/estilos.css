@@ -174,7 +174,8 @@ footer .fa-linkedin-in{
 }
 @media(max-width: 750px) {
     #contacto{
-        background-image: url("../imagenes/fondo-proyectos.png");
+        background-image: url("../imagenes/fondo123.png");
+        background-repeat:repeat
     }
     footer, footer a{
         color: black;
@@ -189,11 +190,11 @@ footer .fa-linkedin-in{
      }
      footer .fa-github{
         font-size: 30px;
-        color: #e20000;
+        color: white;
     }
     footer .fa-linkedin-in{
-        color: white;
-        background-color: #e20000;
+        color: black;
+        background-color: white;
         font-size: 20px;
         border: 0px;
         height: 30px;
@@ -203,8 +204,21 @@ footer .fa-linkedin-in{
         border-radius: 88px;
     }
     .fa-bars{
-        color: #e20000;
+        color: #563680;
         font-size: 25px;
+    }
+    .QR{
+        display: none;
+    }
+    .footer, footer a{
+        color: white;
+    }
+    .circulo{
+        height: 300px ;
+    }
+    .Mifoto{
+        display: block;
+        margin: auto    ;
     }
 }
 .experiencia{
