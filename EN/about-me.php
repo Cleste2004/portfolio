@@ -94,8 +94,8 @@
                   <div class="col-sm-2 col-6 text-center">
                       <div class="px-4 py-5 card mx-0 mb-4 mb-sm-0">
                           <h3>MySQL</h3>
-                          <img class="img-fluid d-block mx-auto" width="60"
-                              src="../imagenes/mariadb.png">
+                          <img class="img-fluid d-block mx-auto" width="109"
+                              src="../imagenes/Autocad-Logo.png">
                       </div>
                   </div>
                   <div class="col-sm-2 col-6 text-center">
