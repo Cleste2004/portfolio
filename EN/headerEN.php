@@ -7,31 +7,31 @@
               <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav me-auto mb-2 mb-md-0">
                   <li class="nav-item">
-                    <a class="nav-link  pe-4 <?php echo ($pg == "index") ? "active" :"" ?>" href="index.php">Inicio</a>
+                    <a class="nav-link  p-auto <?php echo ($pg == "Home") ? "active" :"" ?>" href="home.php">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link  pe-4 <?php echo ($pg == "sobre-mi") ? "active" :"" ?>" href="sobre-mi.php">Sobre mi</a>
+                    <a class="nav-link  p-auto <?php echo ($pg == "About-me") ? "active" :"" ?>" href="about-me.php">About me</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link  pe-4 <?php echo ($pg == "proyectos") ? "active" :"" ?>" href="proyectos.php">Proyectos</a>
+                    <a class="nav-link  p-auto <?php echo ($pg == "proyects") ? "active" :"" ?>" href="proyects.php">Proyects</a>
                    
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link <?php echo ($pg == "contacto") ? "active" :"" ?>" href="contacto.php">Contacto</a>
+                    <a class="nav-link <?php echo ($pg == "contact") ? "active" :"" ?>" href="contact.php">Contact</a>
                   </li>
                 </ul>
                 <form class="d-flex">
                     <ul class="navbar-nav me-auto mb-2 mb-md-0">
                         <li class="nav-item">
-                          <a class="nav-link <?php echo ($pg == "ES") ? "active" :"" ?>" href="">ES</a>
+                          <a class="nav-link <?php echo ($pg == "ES") ? "active" :"" ?>" href="../sobre-mi.php">ES</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link <?php echo ($pg == "EN") ? "active" :"" ?>" href="EN/about-me.php">EN</a>
+                          <a class="nav-link <?php echo ($pg == "EN") ? "active" :"" ?>" href="">EN</a>
                          
                         </ul>
                         
                 </form>
-                <a href="" class="btn6">Descargar CV</a>
+                <a href="" class="btn6">Download CV</a>
               </div>
             </div>
           </nav>

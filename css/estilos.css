@@ -25,7 +25,7 @@ h1{
     color: white;
     font-size: 10px;
 }
- h2{
+h2{
     color: white;
     font-size: 20px;
 }
@@ -55,17 +55,14 @@ p{
     padding-left: 30px;
 
 }
-#sobremi{
-    background-image: url("../imagenes/fondo123.png");
-}
 input,textarea{
     border-radius: 15px !important; margin-bottom: 15px;
 }
 
-#contacto,#index{
+#contacto,#index,#confirmacion,#sobremi{
     background-image: url("../imagenes/fondo123.png ");
     background-size: 100%;
-    background-repeat: no-repeat;
+    background-repeat:repeat;
 }
 #proyectos{
     background-image: url("../imagenes/fondo123.png");
@@ -125,6 +122,21 @@ input,textarea{
     background-color: white;
     color: #563680;
 }
+.btn6{
+    background-color: #573680;
+    color: white;
+    border-radius: 20px;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    margin-left: 20px;
+    
+}
+.btn6:hover{
+    background-color: white;
+    color: #563680;
+}
 nav .nav-link{
     color: white; 
     text-decoration: none;
@@ -132,6 +144,7 @@ nav .nav-link{
 nav .active{
     border: #573680 solid 1px;
     border-radius: 20px;
+    
     
 }
 .nav-link:hover{
@@ -258,7 +271,9 @@ footer .fa-linkedin-in{
         margin-top: 25px;
         margin-bottom: 25px;
     }
+    
+
 }
-.login{
-    padding-left: 16px;
+.bienvenido{
+    background-color: rgb(98, 98, 189);
 }
